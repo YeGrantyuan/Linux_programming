@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFSIZE	./fifo_source/execise.c	2;"	d	file:
+BUFSZ	./shmm_source/msg.c	3;"	d	file:
+BUFSZ	./shmm_source/shmadd.c	3;"	d	file:
+BUSFSZ	./shmm_source/execise.c	3;"	d	file:
+FIFO	./fifo_source/fifo_read.c	8;"	d	file:
+FIFO_SERVER	./fifo_source/fifo_write.c	8;"	d	file:
+Sys_error	./include/headH.h	/^void Sys_error(char *agrv,int n)$/;"	f
+_HEADH_	./include/headH.h	2;"	d
+main	./fifo_source/execise.c	/^int main()$/;"	f
+main	./fifo_source/fifo_read.c	/^main(int argc,char** argv)$/;"	f
+main	./fifo_source/fifo_write.c	/^main(int argc,char** argv)$/;"	f
+main	./pipe_source/parent_w_pipe.c	/^int main()$/;"	f
+main	./pipe_source/pipe.c	/^int main()$/;"	f
+main	./pipe_source/pipe_rw.c	/^int main()$/;"	f
+main	./shmm_source/execise.c	/^int main()$/;"	f
+main	./shmm_source/msg.c	/^int main()$/;"	f
+main	./shmm_source/shmadd.c	/^int main()$/;"	f
+main	./signal_source/alarm_pause.c	/^int main(void)$/;"	f
+main	./signal_source/kill.c	/^int main()$/;"	f
+main	./signal_source/mysignal.c	/^int main()$/;"	f
+main	./signal_source/mysignal_M.c	/^int main(void)$/;"	f
+message	./shmm_source/msg.c	/^struct message{$/;"	s	file:
+msg_text	./shmm_source/msg.c	/^	char msg_text[BUFSZ];$/;"	m	struct:message	file:
+msg_type	./shmm_source/msg.c	/^	long msg_type;$/;"	m	struct:message	file:
+my_func	./signal_source/mysignal.c	/^void my_func(int sign_no)$/;"	f
+my_sig_fun	./signal_source/mysignal_M.c	/^void my_sig_fun(int sign_no)$/;"	f
